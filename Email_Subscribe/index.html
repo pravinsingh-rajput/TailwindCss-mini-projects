@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./image/email.jpeg" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Email Subscription</title>
+  </head>
+  <body>
+    <!-- Background Container -->
+    <div class="flex bg-zinc-800 h-screen items-center justify-center">
+      <!-- Card -->
+      <div
+        class="rounded-2xl p-2 mx-6 bg-zinc-500 shadow-md shadow-cyan-200/40"
+      >
+        <!-- flex Container -->
+        <div class="flex flex-col md:flex-row">
+          <!-- Image -->
+          <img
+            src="./image/email.jpeg"
+            alt=""
+            class="rounded-xl md:rounded-r-none md:rounded-l-xl object-fit h-80 transform hover:scale-105 hover:rounded-xl duration-200"
+          />
+          <div class="flex flex-col p-4 text-left justify-center">
+            <h1 class="text-white font-bold">
+              Get diet & fitness tips in your inbox.
+            </h1>
+            <p class="text-white mx-w-xs py-4 mt-4">
+              Eat Better and Exercise Better. Sign up for the diet and fitness
+              newsletter.
+            </p>
+            <div
+              class="flex flex-col md:flex-row flex py-2 text-left justify-left"
+            >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email address"
+                class="px-14 py-2 text-center text-md text-white rounded-xl bg-zinc-600 border border-zinc-400 placeholder:text-md md:rounded-xl md:m-2 focus:outline-none"
+              />
+              <button
+                class="bg-red-500 px-10 p-2 m-2 text-zinc-800 font-semibold rounded-md hover:text-white hover:bg-red-600 transform hover:scale-95 duration-200"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+  </body>
+</html>
