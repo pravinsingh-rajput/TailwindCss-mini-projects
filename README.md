@@ -1,5 +1,5 @@
 # TailwindCss_mini_projects
-<h1>Mini Projects Using HTML and TailwindCss.</h1> </br>
+<h3>Mini Projects Using HTML and TailwindCss.</h3> </br>
 ⤵⤵⤵⤵⤵⤵⤵⤵ </br>
 ⤵PREVIEW SAMPLES⤵ </br>
 ⤵⤵⤵⤵⤵⤵⤵⤵ </br>
