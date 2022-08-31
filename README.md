@@ -4,7 +4,7 @@
 ⤵PREVIEW SAMPLES⤵ </br>
 ⤵⤵⤵⤵⤵⤵⤵⤵ </br>
 
-![Product_model](https://user-images.githubusercontent.com/60979495/187676095-f86a7454-9998-4aeb-b22d-b4214a7a85c3.png)
+![Product_model](https://user-images.githubusercontent.com/60979495/187690063-b56c452e-a2e3-4237-907d-0179f9be539a.png)
 
 ![Pricing_Grid](https://user-images.githubusercontent.com/60979495/187350532-21ffe0f7-2e0b-427b-918d-0f1b8a689fff.png)
 
