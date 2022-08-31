@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./image/icons.png" type="image/x-icon" />
+    <title>Product Model</title>
+  </head>
+  <body>
+    <!-- Main Container -->
+    <div
+      class="flex flex-wrap bg-slate-200/50 min-h-screen items-center justify-center"
+    >
+      <!-- Card -->
+      <div
+        class="flex flex-col flex-wrap rounded-xl bg-white max-w-2xl mx-6 my-auto p-4 shadow-2xl shadow-grey-200/20"
+      >
+        <!-- Content -->
+        <div class="flex flex-col ml-4 mb-4 mt-4 md:flex-row ">
+          <!-- Image Card -->
+          <div>
+            <img
+              src="./image/headphone.png"
+              alt=""
+              class="w-48 max-w-sm duration-100 hover:scale-125 mx-auto"
+            />
+          </div>
+          <!-- Product Detail Card -->
+          <div class="flex flex-col my-4 mx-2">
+            <div class="flex flex-col flex-wrap text-center md:text-left">
+              <div>
+                <div
+                  class="inline-block text-white bg-black text-sm rounded-full px-2"
+                >
+                  Free Delivery
+                </div>
+              </div>
+              <div class="font-bold m-2 text-xl">
+                JBL Tour One Wireless over-ear noise cancelling headphones
+              </div>
+              <div class="flex flex-col text-center md:text-left">
+                <p class="line-through">$500</p>
+                <p class="font-bold text-4xl my-2">$299</p>
+                <p class="text-sm font-light text-gray-400 my-1">
+                  This offer is valid untill September 3rd or as long as the
+                  stock last!
+                </p>
+              </div>
+              <div class="group">
+                <button
+                  class="bg-blue-700 transition-all duratuion-200 rounded-lg w-full text-sm text-white border-b-4 border-b-blue-700 group-hover:border-t-4 group-hover:border-b-0 group-hover:border-t-blue-700 group-hover:bg-blue-700 group-hover:shadow-lg"
+                >
+                  <div
+                    class="bg-blue-500 py-2 px-4 rounded-lg duratuion-200 group-hover:bg-blue-700"
+                  >
+                    Add to cart
+                  </div>
+                </button>
+              </div>
+
+            <div class="flex items-center group my-2">
+                <div
+                  class="w-3 h-3 bg-green-300 rounded-full group-hover:animate-ping"
+                ></div>
+                <p class="mx-2 text-sm">50+ pcs. in stocks</p>
+            </div>
+
+            <!-- Buttons -->
+
+            <div class="flex flex-col md:flex-row">
+                <button class="flex justify-center items-center border-2 p-1 m-1 w-full rounded-lg transition-all duration-150 shadow-sm hover:shadow-lg hover:-translate-y-0.5">
+                    <img src="./image/wishlist.png" alt="" class="w-8 px-2">
+                    <span>Add to wishlist</span>
+                </button>
+                <button class=" flex justify-center items-center border-2 p-1 m-1 w-full rounded-lg transition-all duration-150 shadow-sm hover:shadow-lg hover:-translate-y-0.5">
+                    <img src="./image/shopping-bag.png" alt="" class="w-8 px-2">
+                    <span>Add to cart</span>
+                </button>
+            </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+  </body>
+</html>
