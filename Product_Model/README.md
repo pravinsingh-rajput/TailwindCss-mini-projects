@@ -1,5 +1,5 @@
 # Product Model
 
 ⤵⤵⤵⤵⤵⤵⤵⤵⤵
-![Product_model](https://user-images.githubusercontent.com/60979495/187676437-801e441e-e88a-489b-8b0c-0b97e5309f5f.png)
 
+![Product_model](https://user-images.githubusercontent.com/60979495/187690250-5a49801b-7218-46db-8d94-351db2c98130.png)
