@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex justify-center items-center bg-cyan-50 min-h-screen">
+      <!-- Card Container -->
+      <div class="m-3 p-6 space-y-6 shadow-xl rounded-2xl bg-white md:40">
+        <!-- Navigation -->
+        <div
+          class="flex flex-col md:flex-row items-center justify-center space-y-3 md:space-y-0 md:space-x-3 md:justify-end"
+        >
+          <!-- Menu -->
+          <div class="group">
+            <a href="#">Vector</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="#">Illustration</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="#">Image</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="#">Icon</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+        </div>
+        <!-- Search Box -->
+        <div
+          class="flex flex-col md:flex-row space-y-3 md:space-y-0 justify-between"
+        >
+          <!-- Input & svg -->
+          <div class="flex justify-between border-b">
+            <input
+              type="text"
+              class="ml-6 border-none focus:outline-none placeholder:font-thin"
+              placeholder="Search"
+            />
+            <button>
+              <img src="./image/search.png" alt="" class="w-6" />
+            </button>
+          </div>
+          <button
+            class="py-3 px-14 font-normal text-lg text-white bg-black border border-black rounded-md shadow-xl duration-200 hover:bg-white hover:text-black"
+          >
+            Upload
+          </button>
+        </div>
+
+        <!-- Gallery -->
+        <div class="grid gap-4 md:grid-cols-3">
+          <!-- Image 1 -->
+          <div class="relative group">
+            <img src="./image/Aesthetic.jpg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute left-0 bottom-0 right-0 px-4 p-2 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="justify-between w-full flex">
+                <div class="font-normal">
+                  <p class="text-sm">Aesthetic</p>
+                  <p class="text-xs">250 Likes - 18 Shares</p>
+                </div>
+                <div class="flex items">
+                  <img
+                    src="./image/bookmark.png"
+                    alt="bookmark"
+                    class="w-6 h-6 invert"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image 2 -->
+          <div class="relative group">
+            <img src="./image/beach.jpg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute left-0 bottom-0 right-0 px-4 p-2 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="justify-between w-full flex">
+                <div class="font-normal">
+                  <p class="text-sm">Beach</p>
+                  <p class="text-xs">190 Likes - 8 Shares</p>
+                </div>
+                <div class="flex items">
+                  <img
+                    src="./image/bookmark.png"
+                    alt="bookmark"
+                    class="w-6 h-6 invert"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image 3 -->
+          <div class="relative group">
+            <img src="./image/Cyberpunk.png" alt="" class="w-72 h-40" />
+            <div
+              class="absolute left-0 bottom-0 right-0 px-4 p-2 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="justify-between w-full flex">
+                <div class="font-normal">
+                  <p class="text-sm">Cyberpunk</p>
+                  <p class="text-xs">320 Likes - 38 Shares</p>
+                </div>
+                <div class="flex items">
+                  <img
+                    src="./image/bookmark.png"
+                    alt="bookmark"
+                    class="w-6 h-6 invert"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image 4 -->
+          <div class="relative group">
+            <img src="./image/Gaming.jpg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute left-0 bottom-0 right-0 px-4 p-2 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="justify-between w-full flex">
+                <div class="font-normal">
+                  <p class="text-sm">Gaming</p>
+                  <p class="text-xs">280 Likes - 21 Shares</p>
+                </div>
+                <div class="flex items">
+                  <img
+                    src="./image/bookmark.png"
+                    alt="bookmark"
+                    class="w-6 h-6 invert"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image 5 -->
+          <div class="relative group">
+            <img src="./image/Japan.jpg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute left-0 bottom-0 right-0 px-4 p-2 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="justify-between w-full flex">
+                <div class="font-normal">
+                  <p class="text-sm">Japan</p>
+                  <p class="text-xs">216 Likes - 12 Shares</p>
+                </div>
+                <div class="flex items">
+                  <img
+                    src="./image/bookmark.png"
+                    alt="bookmark"
+                    class="w-6 h-6 invert"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image 6 -->
+          <div class="relative group">
+            <img src="./image/lion.jpg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute left-0 bottom-0 right-0 px-4 p-2 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="justify-between w-full flex">
+                <div class="font-normal">
+                  <p class="text-sm">lion</p>
+                  <p class="text-xs">120 Likes - 5 Shares</p>
+                </div>
+                <div class="flex items">
+                  <img
+                    src="./image/bookmark.png"
+                    alt="bookmark"
+                    class="w-6 h-6 invert"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image 7 -->
+          <div class="relative group">
+            <img src="./image/Marvel.jpg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute left-0 bottom-0 right-0 px-4 p-2 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="justify-between w-full flex">
+                <div class="font-normal">
+                  <p class="text-sm">Marvel</p>
+                  <p class="text-xs">482 Likes - 68 Shares</p>
+                </div>
+                <div class="flex items">
+                  <img
+                    src="./image/bookmark.png"
+                    alt="bookmark"
+                    class="w-6 h-6 invert"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image 8 -->
+          <div class="relative group">
+            <img src="./image/Nature.jpg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute left-0 bottom-0 right-0 px-4 p-2 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="justify-between w-full flex">
+                <div class="font-normal">
+                  <p class="text-sm">Nature</p>
+                  <p class="text-xs">345 Likes - 20 Shares</p>
+                </div>
+                <div class="flex items">
+                  <img
+                    src="./image/bookmark.png"
+                    alt="bookmark"
+                    class="w-6 h-6 invert"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image 9 -->
+          <div class="relative group">
+            <img src="./image/Desert.jpg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute left-0 bottom-0 right-0 px-4 p-2 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="justify-between w-full flex">
+                <div class="font-normal">
+                  <p class="text-sm">Desert</p>
+                  <p class="text-xs">250 Likes - 17x Shares</p>
+                </div>
+                <div class="flex items">
+                  <img
+                    src="./image/bookmark.png"
+                    alt="bookmark"
+                    class="w-6 h-6 invert"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+  </body>
+</html>
